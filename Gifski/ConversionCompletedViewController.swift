@@ -21,7 +21,7 @@ final class ConversionCompletedViewController: NSViewController {
 	private let tooltip = Tooltip(
 		identifier: "conversionCompletedTips",
 		text: "Go ahead and drag the thumbnail to the Finder or Safari! You can also press Space to enlarge the preview.",
-		showOnlyOnce: true,
+		showOnlyOnce: false,
 		maxWidth: 260
 	)
 
